@@ -1,0 +1,10 @@
+# Deploy only after flipfinds.net is live and HTTPS has been validated.
+# Cloudflare Pages rules; GitHub Pages does not process this file.
+/privacy.html https://flipfinds.net/pages/privacy/ 301
+/privacy https://flipfinds.net/pages/privacy/ 301
+/index.html https://flipfinds.net/ 301
+/app-icon.png https://flipfinds.net/images/app-icon.png 301
+/image1.jpeg https://flipfinds.net/images/landing/image1.jpeg 301
+/image4.jpeg https://flipfinds.net/images/landing/image4.jpeg 301
+/image5.jpeg https://flipfinds.net/images/landing/image5.jpeg 301
+/* https://flipfinds.net/:splat 301
